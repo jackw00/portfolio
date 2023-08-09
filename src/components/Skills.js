@@ -1,9 +1,8 @@
-import React from "react";
 import { skills } from "../data";
 
 export default function Skills() {
     return (
-        <div id="skills mb-10">
+        <div id="skills" className="mb-20">
             <div className="container px-5 py-10 mx-auto">
                 <div className="text-center mb-20">
                     <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
