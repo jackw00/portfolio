@@ -9,6 +9,9 @@ export default function Navbar() {
         <a href="#projects" className="mx-5 hover:text-gray-200">
           Projects
         </a>
+        <a href="#skills" className="mr-5 hover:text-gray-200">
+          Skills
+        </a>
         <a
           href="#contact"
           className="hover:text-gray-200">
