@@ -50,7 +50,7 @@ export const skills = [
   "Bootstrap",
   "Tailwind CSS",
   "PyTorch library",
-  "Machine Learning",
+  "Word Press",
   "Git",
   "Arduino",
   "Comptuer Aided Design",
