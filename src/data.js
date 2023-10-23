@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: "JackTrack",
-    subtitle: "Spring Boot, React.js, MongoDB, Tailwind CSS",
+    title: "Froggy Pill",
+    subtitle: "Node.ks, Express.js, React.js, MySQL, Tailwind CSS, CAD & 3D printing",
     description:
-      "Under Construction - Web application for tracking health and fitness related metrics.",
-    image: "./jacktrack.png",
-    link: "https://github.com/jackw00/jacktrack",
+      "Product created for UF Dream Team Engineering 24-hour Designathon compeition. The purpose of the product is to make taking medicine fun for children. The web application allows users to store and view their medicine and 'grow their frog' each time they take their medicine. The end prodcut also includes a 3D printed frog pill box with an embedded near field communication (NFC) tag allowing users to tap their phone on their pill box and be redirected to the web application to log and view their medicine.",
+    image: "./froggypill.png",
+    link: "https://froggypill.vercel.app/",
   },
   {
     title: "Food Shuffle",
