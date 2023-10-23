@@ -3,7 +3,7 @@ export const projects = [
     title: "Froggy Pill",
     subtitle: "Node.ks, Express.js, React.js, MySQL, Tailwind CSS, CAD & 3D printing",
     description:
-      "Product created for UF Dream Team Engineering 24-hour Designathon compeition. The purpose of the product is to make taking medicine fun for children. The web application allows users to store and view their medicine and 'grow their frog' each time they take their medicine. The end prodcut also includes a 3D printed frog pill box with an embedded near field communication (NFC) tag, allowing users to tap their phone on their pill box and be redirected to the web application. 'Froggy Pill' earned my team and I the People's Choice award at the compeition.",
+      "Product created for UF Dream Team Engineering 24-hour Designathon compeition. The purpose of the product is to make taking medicine fun for children. The web application allows users to store and view their medicine and 'grow their frog' each time they take their medicine. The end prodcut also includes a 3D printed frog pill box with an embedded near field communication (NFC) tag, allowing users to tap their phone on their pill box and be redirected to the web application. 'Froggy Pill' earned my team and I the People's Choice Award at the compeition.",
     image: "./froggypill.png",
     link: "https://froggypill.vercel.app/",
   },
