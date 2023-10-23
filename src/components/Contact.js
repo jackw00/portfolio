@@ -35,7 +35,7 @@ export default function Contact() {
     })
     .then((response) => {
       console.log(response.data.joke)
-      setJoke('"' +response.data.joke )
+      setJoke('"' +response.data.joke +'"' )
     })
   }
 
