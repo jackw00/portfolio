@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "Analysis of Chicago Crime",
+    subtitle: "C++, Sorting Algorithms",
+    description:
+      "This project was created for COP3530 (Data Strucutres & Algorithms) at the University of Florida. I collaborated with 2 other students to create a command-line application that allows users to organize crimes in Chicago by community area and street name using the QuickSort and TimSort algorithms. This can help traveleres make informed decisions about safe and dangerous areas of the city, based on 100,000+ crimes from 2020.",
+    image: "./chicagocrime.png",
+    link: "https://github.com/lrwilliams33/Chicago-Crime-Project/",
+  },
+  {
     title: "Froggy Pill",
     subtitle: "Node.ks, Express.js, React.js, MySQL, Tailwind CSS, CAD & 3D printing",
     description:
