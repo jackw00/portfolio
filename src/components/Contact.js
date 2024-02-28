@@ -11,6 +11,17 @@ export default function Contact() {
   const form = useRef()
   const [joke, setJoke] = useState('')
 
+  /*
+     <form ref={form} onSubmit={sendEmail}>
+          <label className="block font-bold mb-2">Name</label>
+          <input className="text-gray-700 rounded w-full py-2 px-3 mb-6" type="text" name="name" placeholder="John Doe" value={name} onChange={event => setName(event.target.value)}/>
+          <label className="block font-bold mb-2">Email</label>
+          <input className="text-gray-700 rounded w-full py-2 px-3 mb-6" type="email" name="email" placeholder="example@gmail.com" value={email} onChange={event => setEmail(event.target.value)} />
+          <label className="block font-bold mb-2">Message</label>
+          <textarea className="text-gray-700 rounded w-full py-2 px-3 mb-6" name="message" value={msg} placeholder="Hi there!" onChange={event => setMsg(event.target.value)}/>
+          <button className="bg-gray-800 hover:bg-gray-600 text-white font-bold py-2 px-6 rounded" type="submit">Send</button>
+        </form>
+  */
   const sendEmail = (e) => {
     e.preventDefault()
 
@@ -49,15 +60,8 @@ export default function Contact() {
         Get in touch.
       </p>
       <div className="m-10">
-        <form ref={form} onSubmit={sendEmail}>
-          <label className="block font-bold mb-2">Name</label>
-          <input className="text-gray-700 rounded w-full py-2 px-3 mb-6" type="text" name="name" placeholder="John Doe" value={name} onChange={event => setName(event.target.value)}/>
-          <label className="block font-bold mb-2">Email</label>
-          <input className="text-gray-700 rounded w-full py-2 px-3 mb-6" type="email" name="email" placeholder="example@gmail.com" value={email} onChange={event => setEmail(event.target.value)} />
-          <label className="block font-bold mb-2">Message</label>
-          <textarea className="text-gray-700 rounded w-full py-2 px-3 mb-6" name="message" value={msg} placeholder="Hi there!" onChange={event => setMsg(event.target.value)}/>
-          <button className="bg-gray-800 hover:bg-gray-600 text-white font-bold py-2 px-6 rounded" type="submit">Send</button>
-        </form>
+        Email form under construction.
+        Please contact me at jackwardlaw0@gmail.com until further notice. 
       </div>
 
       <div className="my-10 text-center">
