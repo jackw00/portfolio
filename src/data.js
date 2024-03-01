@@ -51,7 +51,7 @@ export const skills = [
   "Express.js",
   "Node.js",
   "React.js",
-  "MySQL",
+  "SQL",
   "MongoDB",
   "Spring Boot",
   "Axios",

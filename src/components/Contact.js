@@ -72,7 +72,7 @@ export default function Contact() {
       </div>
 
       <div className="flex flex-row px-10 mt-10 items-center">
-        <p className="mx-4">jackwardlaw0@gmail.com</p>
+        <p className="mx-4"><a href="mailto:jackwardlaw0@gmail.com">jackwardlaw0@gmail.com</a></p>
         <a className="object-fill h-4 w-4 m-2 mx-4" target="_blank" href="https://linkedin.com/in/jackwardlaw"><img src={linkedInLogo} alt="LinkedIn"/></a>
         <a className="object-fill h-4 w-4 m-2 mx-4" target="_blank" href="https://github.com/jackw00"><img src={githubLogo} className="rounded" alt="GitHub"/></a>
         <a

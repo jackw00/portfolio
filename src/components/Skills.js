@@ -2,13 +2,13 @@ import { skills } from "../data";
 
 export default function Skills() {
     return (
-        <div id="skills" className="mb-20 font-mono">
+        <div id="skills" className="mb-20">
             <div className="flex flex-col justify-center items-center px-5 py-10 mx-auto ">
                 <div className="text-center mb-20">
-                    <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+                    <h1 className="font-mono sm:text-4xl text-3xl font-medium title-font text-white mb-4">
                         Skills &amp; Technologies
                     </h1>
-                    <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+                    <p className="leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
                         These are some of the skills and technologies I've learned so far from my coursework and personal projects. I'm excited to keep learning more!
                     </p>
                 </div>
