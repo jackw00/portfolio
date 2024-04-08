@@ -1,3 +1,56 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+.main {
+    font-family: "Nunito Sans", sans-serif;
+}
+/* Background Selectors */
+
+.dark-blue-bg {
+    background-color: #31708E;
+}
+
+.green-bg {
+    background-color: #687865;
+}
+
+.blue-bg {
+    background-color: #5085A5;
+}
+
+.light-blue-bg {
+    background-color: #8FC1E3;
+}
+
+.white-bg {
+    background-color: #F7F9FB;
+}
+
+ /* For SVG background */
+
+.background-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* For Sticky Navbar */
+
+.sticky-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Adjust as needed */
+  }
+  
