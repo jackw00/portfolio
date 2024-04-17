@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Navbar from "./components/Navbar/Navbar";
@@ -7,14 +7,19 @@ import Skills from "./components/Skills/Skills";
 import "./index.css";
 
 export default function App() {
-  const [svgToggle, setSvgToggle] = useState(true);
 
   return (
+    <>
+    <head>
+     <link rel="icon" href="/favicon.png" />
+    </head>
     <main className="main">
-      <section className="light-blue-bg sticky-navbar">
+      <section className="bg-light-blue sticky-navbar">
         <Navbar />
       </section>
-      <section className="background-section dark-blue-bg"></section>
+      <section className="background-section bg-dark-blue">
+        <About /> 
+      </section>
       <section className="background-section">
         <svg
           className="background-svg"
@@ -47,7 +52,7 @@ export default function App() {
           ></path>
         </svg>
       </section>
-      <section className="background-section green-bg">
+      <section className="background-section bg-green">
         This will be projects
       </section>
       {
@@ -85,15 +90,16 @@ export default function App() {
           ></path>
         </svg>
       </section>
-      <section className="background-section blue-bg">
+      <section className="background-section bg-blue">
         This will be skills
       </section>
       {
         // should be normal blue to light (with green)
       }
-      <section className="background-section green-bg">
+      <section className="background-section bg-green">
         This will be contact
       </section>
     </main>
+    </>
   );
 }
