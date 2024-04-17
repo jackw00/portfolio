@@ -10,7 +10,7 @@ export default function Projects() {
 
   return (
     <section id="projects">
-      <Box class="header-container">
+      <Box className="header-container">
         {windowWidth > 768 ? (
           <>
           <Typography variant="h2" gutterBottom>

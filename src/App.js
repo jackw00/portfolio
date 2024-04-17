@@ -3,6 +3,7 @@ import { ThemeProvider } from '@mui/material/styles';
 import muiTheme from './theme/muiTheme';
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
@@ -99,7 +100,10 @@ export default function App() {
         // should be normal blue to light (with green)
       }
       <section className="background-section bg-green">
-        This will be contact
+        <Contact/>
+      </section>
+      <section className="bg-green">
+        <Footer/>
       </section>
     </main>
     </ThemeProvider>
