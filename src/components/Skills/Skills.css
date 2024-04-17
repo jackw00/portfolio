@@ -1,0 +1,15 @@
+.header-container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10vh;
+    max-width: 800px;
+}
+
+.skills-grid {
+    padding: 0 5vw 10vh 5vw;
+}
+
+.skill-card {
+    height: 100%;
+}
+  

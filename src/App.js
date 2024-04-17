@@ -1,4 +1,6 @@
 import React from "react";
+import { ThemeProvider } from '@mui/material/styles';
+import muiTheme from './theme/muiTheme';
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Navbar from "./components/Navbar/Navbar";
@@ -9,7 +11,7 @@ import "./index.css";
 export default function App() {
 
   return (
-    <>
+    <ThemeProvider theme={muiTheme}>
     <head>
      <link rel="icon" href="/favicon.png" />
     </head>
@@ -52,8 +54,8 @@ export default function App() {
           ></path>
         </svg>
       </section>
-      <section className="background-section bg-green">
-        This will be projects
+      <section className="background-section-projects bg-green">
+        <Projects />
       </section>
       {
         //should be green to middle blue (w/ white?)
@@ -90,8 +92,8 @@ export default function App() {
           ></path>
         </svg>
       </section>
-      <section className="background-section bg-blue">
-        This will be skills
+      <section className="background-section-skils bg-blue">
+        <Skills />        
       </section>
       {
         // should be normal blue to light (with green)
@@ -100,6 +102,6 @@ export default function App() {
         This will be contact
       </section>
     </main>
-    </>
+    </ThemeProvider>
   );
 }

@@ -1,32 +1,48 @@
+import React from "react";
+import { Box, Typography } from "@mui/material";
 import { projects } from "../../data";
+import ProjectCard from "./ProjectCard/ProjectCard";
+import "./Projects.css";
 
 export default function Projects() {
+
+  const windowWidth = window.innerWidth;
+
   return (
-    <div id="projects">
-      <div>
-        <h1>Projects</h1>
-        <p>Click on the pictures below to check out my recent projects!</p>
-      </div>
-      <div>
-        <div>
-          {projects.map((project) => (
-            <div>
-              <div className="w-1/2 p-4">
-                <a href={project.link} target="_blank">
-                  <h1>{project.title}</h1>
-                </a>
-                <h2>{project.subtitle}</h2>
-                <p>{project.description}</p>
-              </div>
-              <div>
-                <a href={project.link} target="_blank">
-                  <img alt="alt text" src={project.image} />
-                </a>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
+    <section id="projects">
+      <Box class="header-container">
+        {windowWidth > 768 ? (
+          <>
+          <Typography variant="h2" gutterBottom>
+            Projects
+          </Typography>
+          <Typography variant="h6">
+            Click on the pictures below to check out my recent projects!
+          </Typography>
+          </>
+        ) : (
+          <>
+          <Typography variant="h4" gutterBottom>
+            Projects
+          </Typography>
+          <Typography variant="h6">
+            Click on the pictures below to check out my recent projects!
+          </Typography>
+          </>
+        )}
+      </Box>
+      <Box className="projects-container">
+        {projects.map((project, index) => (
+          <ProjectCard
+            key={index}
+            title={project.title}
+            subtitle={project.subtitle}
+            description={project.description}
+            image={project.image}
+            link={project.link}
+          />
+        ))}
+      </Box>
+    </section>
   );
 }

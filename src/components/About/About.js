@@ -57,7 +57,7 @@ export default function About() {
         sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', paddingTop: '5vh', minHeight: '100vh'}}
       >
         <Box sx={{ textAlign: 'center', maxWidth: 800, p: 3 }}>
-          {windowWidth > 600 ? (
+          {windowWidth > 768 ? (
             <Typography variant="h2" gutterBottom>
               {typedText}
             </Typography>
@@ -97,7 +97,7 @@ export default function About() {
           </Typography>
         </Box>
         <Box
-          sx={{ display: 'flex', justifyContent: 'space-between', width: '100%', maxWidth: 600, mt: 3, background: "#8FC1E3", borderRadius: 10}}
+          sx={{ display: 'flex', justifyContent: 'space-between', width: '100vw', maxWidth: 500, mt: 3, background: "#8FC1E3", borderRadius: 10}}
         >
           <Button
             className="logo-button"
