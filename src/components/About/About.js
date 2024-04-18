@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import {Box, Button, Typography} from '@mui/material';
-import './About.css';
 import linkedInLogo from "../../img/linkedin.png";
 import githubLogo from "../../img/github.png";
+import './About.css';
 
 export default function About() {
   const [typedText, setTypedText] = useState('J');
@@ -11,6 +11,10 @@ export default function About() {
   const deleteSpeed = 100;
   const animationLimit = 5; // Total number of typing animations
   const windowWidth = window.innerWidth;
+
+  const downloadResume = () => {
+    window.location.href = "./resume.pdf";
+  };
 
   useEffect(() => {
     let animationCount = 0;
@@ -97,6 +101,7 @@ export default function About() {
           </Typography>
         </Box>
         <Box
+          className="button-bar"
           sx={{ display: 'flex', justifyContent: 'space-between', width: '100vw', maxWidth: 500, mt: 3, background: "#8FC1E3", borderRadius: 10}}
         >
           <Button
@@ -125,6 +130,13 @@ export default function About() {
           >
             <img src={linkedInLogo} alt="LinkedIn Logo" style={{ width: '100%' }} />
           </Button>
+        </Box>
+        <Box
+          sx={{ display: 'flex', justifyContent: 'center', width: '100vw', maxWidth: 200, mt: 3, background: "#8FC1E3", borderRadius: 10}}
+        >
+        <button onClick={downloadResume}>
+          View Resume
+        </button>
         </Box>
       </Box>
     </section>
