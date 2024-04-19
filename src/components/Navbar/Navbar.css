@@ -1,0 +1,18 @@
+/* Navbar Component Styling */
+
+.nav-container {
+    padding: 0.75vw;
+}
+
+.brand-container {
+    font-size: 1.4rem;
+}
+
+.list-container {
+    margin-left: 3vw;
+}
+
+.list-container a{
+    padding-left: 1vw;
+    font-size: 1.1rem;
+}

@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import '@fontsource/nunito-sans';
+
+.main {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+ /* For SVG background */
+.background-section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* For Sticky Navbar */
+.sticky-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Adjust as needed */
+  }
+  

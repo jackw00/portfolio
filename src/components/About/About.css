@@ -1,0 +1,18 @@
+.about-paragraph a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.logo-button {
+    width: 24%;
+    background-color: transparent;
+}
+
+.logo-button img {
+    border-radius: 10px;
+}
+
+.text-button {
+    width: 50%;
+    font-size: 1.5rem !important;
+}

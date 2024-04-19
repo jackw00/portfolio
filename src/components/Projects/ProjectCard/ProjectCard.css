@@ -1,0 +1,36 @@
+.image-container {
+    margin-top: auto; 
+    max-height: 250px;
+}
+
+.project-description {
+    flex-grow: 1; 
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: #F7F9FB;
+    margin: 20px auto;
+    max-width: 500px;
+}
+@media (max-width: 768px) {
+    .project-card {
+        width: 100%;
+    }
+}  
+
+.project-image {
+    width: 100%;
+    height: auto;
+}
+  
+.project-subtitle {
+    font-style: italic;
+    padding-bottom: 0.5rem;
+}
+
+.project-title {
+    font-weight: bolder;
+}
