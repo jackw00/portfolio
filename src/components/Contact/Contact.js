@@ -14,8 +14,8 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
     const body = {name: name, email: email, message: msg};
-    emailjs
-      .send(
+    try {
+      emailjs.send(
         process.env.REACT_APP_SERVICE_ID,
         process.env.REACT_APP_TEMPLATE_ID,
         body,
@@ -29,6 +29,9 @@ export default function Contact() {
           setResMsg("Error. Sorry about that, contact me directly at jackwardlaw0@gmail.com");
         }
       );
+    } catch (error) {
+      setResMsg("Error. Sorry about that, contact me directly at jackwardlaw0@gmail.com");
+    }
     setName("");
     setEmail("");
     setMsg("");
