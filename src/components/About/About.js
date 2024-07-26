@@ -97,7 +97,7 @@ export default function About() {
             >
               Dream Team Engineering
             </a>{" "}
-            software division.
+            software division. Recent accomplishments that I am proud of include a software engineering internship at JPMorganChase and receiving my AWS Certified Cloud Practioner certification. 
           </Typography>
         </Box>
         <Box
