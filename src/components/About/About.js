@@ -72,7 +72,7 @@ export default function About() {
           )}
           
           <Typography variant="h6" className="about-paragraph">
-          Hello! My name is Jack. I am an undergraduate student at the University of Florida (UF) studying computer engineering. I have also started UF's combined BS/MS program in electrical and computer engineering. Checkout some of the projects I've been working on and my skills below. Outside of my coursework, I have held roles as a researcher {" ("}
+          Hello! My name is Jack. I am an undergraduate student at the University of Florida (UF) studying computer engineering. I have also started UF's combined BS/MS program in electrical and computer engineering. Check out some of the projects I've been working on and my skills below. Outside of my coursework, I have held roles as a researcher {" ("}
             <a
               target="_blank"
               href="https://smartdata.ece.ufl.edu/"
@@ -99,7 +99,7 @@ export default function About() {
               href="https://mrsl.com"
             >
               MRSL
-            </a>{" "}
+            </a>
             , where I gained experience creating software for DSP and communications applications.
           </Typography>
         </Box>
