@@ -137,9 +137,9 @@ export default function About() {
         <Box
           sx={{ display: 'flex', justifyContent: 'center', width: '100vw', maxWidth: 200, mt: 3, background: "#8FC1E3", borderRadius: 10}}
         >
-        <button onClick={downloadResume}>
+        {/* <button onClick={downloadResume}>
           View Resume
-        </button>
+        </button> */}
         </Box>
       </Box>
     </section>
