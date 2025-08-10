@@ -122,9 +122,9 @@ export default function About() {
           </Button>
           <Button
             className="text-button"
-            href="#contacts"
+            href="#contact"
           >
-            Contacts
+            Contact
           </Button>
           <Button
             className="logo-button"
