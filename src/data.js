@@ -65,7 +65,7 @@ export const projects = [
 export const skills = [
   "Arduino",
   "AWS",
-  "C++",
+  "C/C++",
   "Docker",
   "Git",
   "HTML/CSS",
@@ -74,7 +74,6 @@ export const skills = [
   "Jenkins",
   "Linux",
   "MATLAB",
-  "MongoDB",
   "Node.js",
   "Python",
   "React",
@@ -83,4 +82,5 @@ export const skills = [
   "SQL",
   "Terraform",
   "VHDL",
+  "X-MIDAS",
 ];

@@ -72,34 +72,35 @@ export default function About() {
           )}
           
           <Typography variant="h6" className="about-paragraph">
-            Hello! My name is Jack. I am a student at the University of Florida
-            studying computer engineering. Checkout some of the projects I've
-            been working on and my skills below. Outside of my coursework, 
-            I am undegraduate researcher at the{" "}
+          Hello! My name is Jack. I am an undergraduate student at the University of Florida (UF) studying computer engineering. I have also started UF's combined BS/MS program in electrical and computer engineering. Checkout some of the projects I've been working on and my skills below. Outside of my coursework, I have held roles as a researcher {" ("}
             <a
               target="_blank"
               href="https://smartdata.ece.ufl.edu/"
             >
               SmartData Lab
-            </a>{" "}
-            working on a project related to signal processing and
-            non-destructive evaluation. I am also President of{" "}
-            <a
-              target="_blank"
-              href="https://www.honors.ufl.edu/student-life/student-orgs/honors-athletics/"
-            >
-              Honors Athletics
-            </a>{" "}
-            and a developer on the{" "}
+            </a>{"), "}
+            teaching assistant for EEL3701C and EEL4744C, and developer on the {" "}
             <a
               target="_blank"
               href="https://www.ufdreamteameng.org/"
             >
               Dream Team Engineering
             </a>{" "}
-            software division. Recent accomplishments that I am proud of include a software engineering internship at{" "}
-            <a>JPMorganChase</a>
-            {" "} and receiving my AWS Certified Cloud Practitioner certification. 
+            software division. I am also President of {" "}
+            <a
+              target="_blank"
+              href="https://www.honors.ufl.edu/student-life/student-orgs/honors-athletics/"
+            >
+              Honors Athletics
+            </a>{" "}
+            in the UF Honors Program. A recent accomplishment that I am proud of is a software engineering / digital signal processing internship at {" "}
+            <a
+              target="_blank"
+              href="https://mrsl.com"
+            >
+              MRSL
+            </a>{" "}
+            , where I gained experience creating software for DSP and communications applications.
           </Typography>
         </Box>
         <Box

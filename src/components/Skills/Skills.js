@@ -17,7 +17,7 @@ export default function Skills() {
             Skills
           </Typography>
           <Typography variant="h6">
-            These are some of the langauges, frameworks, and technologies I've worked with in my coursework, work experience, and personal projects. I'm excited to keep learning more!
+            These are some of the langauges, frameworks, and technologies I've worked with in my coursework, work experience, and personal projects. I also have experience creating software for DSP and communications applications. I'm excited to keep learning more! 
           </Typography>
           </>
         ) : (
@@ -26,7 +26,7 @@ export default function Skills() {
             Skills
           </Typography>
           <Typography variant="h6">
-            These are some of the langauges, frameworks, and technologies I've worked with in my coursework, work experience, and personal projects. I'm excited to keep learning more!
+            These are some of the langauges, frameworks, and technologies I've worked with in my coursework, work experience, and personal projects. I also have experience creating software for DSP and communications applications. I'm excited to keep learning more! 
           </Typography>
           </>
         )}
